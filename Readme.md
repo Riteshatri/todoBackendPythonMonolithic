@@ -59,7 +59,10 @@ connection_string = (
   "PWD=<your-password>"
 )
 ```
-
+```python
+**for example** :-
+connection_string = "Driver={ODBC Driver 17 for SQL Server};Server=tcp:riteshserver.database.windows.net,1433;Database=riteshdatabase;Uid=ritserver;Pwd=admin@1234;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+```
 ✅ Ensure you're using **ODBC Driver 17**.
 
 ---
