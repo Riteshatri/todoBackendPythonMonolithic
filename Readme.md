@@ -72,6 +72,7 @@ scp -r * <vmUserName>@<publicIPAddress>:"user'sHomeDirectory"
 for ex: - scp -r * rit@34.33.32.31:"/home/rit/"
 
 and then....... 
+
 ---
 
 ### ⚙️ Step 4: Install Dependencies
