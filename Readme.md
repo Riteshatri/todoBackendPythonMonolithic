@@ -69,10 +69,10 @@ connection_string = "Driver={ODBC Driver 17 for SQL Server};Server=tcp:riteshser
 ### 🔑 Step 3: Secure copy (scp) this updated code, after entered connected string correctly, to your backend vm...
 
 scp -r * <vmUserName>@<publicIPAddress>:"user'sHomeDirectory"
-for ex: - scp -r * rit@34.33.32.31:"/home/rit/"
+
+📝 for ex: - scp -r * rit@34.33.32.31:"/home/rit/"
 
 and then....... 
-
 ---
 
 ### ⚙️ Step 4: Install Dependencies
