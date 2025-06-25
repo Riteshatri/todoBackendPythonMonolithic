@@ -66,13 +66,17 @@ connection_string = "Driver={ODBC Driver 17 for SQL Server};Server=tcp:riteshser
 ✅ Ensure you're using **ODBC Driver 17**.
 
 ---
-### 🔑 Step 2: Secure copy (scp) this updated code, afted entered connected string correctly, to your backend vm and then....... 
+### 🔑 Step 2: Secure copy (scp) this updated code, after entered connected string correctly, to your backend vm...
 
+scp -r * <vmUserName>@<publicIPAddress>:"user'sHomeDirectory"
+for ex: - scp -r * rit@34.33.32.31:"/home/rit/"
+
+and then....... 
 ---
 
 ### ⚙️ Step 3: Install Dependencies
 
-Run these commands on your **Ubuntu VM**:
+Run these commands on your **Ubuntu VM** , Where you copy your code (user'sHomeDirectory):
 
 ```bash
 sudo su
